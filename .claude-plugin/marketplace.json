@@ -1,0 +1,51 @@
+{
+  "name": "cohere",
+  "owner": {
+    "name": "Cohere"
+  },
+  "description": "Claude Code marketplace federating every @amlplugins/cohere-* plugin under a single marketplace source.",
+  "plugins": [
+    {
+      "name": "cohere-chat",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/cohere-chat.git"
+      }
+    },
+    {
+      "name": "cohere-classify",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/cohere-classify.git"
+      }
+    },
+    {
+      "name": "cohere-datasets",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/cohere-datasets.git"
+      }
+    },
+    {
+      "name": "cohere-embeddings",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/cohere-embeddings.git"
+      }
+    },
+    {
+      "name": "cohere-fine-tuning",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/cohere-fine-tuning.git"
+      }
+    },
+    {
+      "name": "cohere-rerank",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/cohere-rerank.git"
+      }
+    }
+  ]
+}
